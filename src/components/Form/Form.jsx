@@ -49,14 +49,14 @@ const Form = () => {
             <input
                 className={'input'}
                 type='text'
-                placeholder={'логин'}
+                placeholder={'Введите логин'}
                 value={login}
                 onChange={onChangeLogin}
             />
             <input
                 className={'input'}
                 type='password'
-                placeholder={'пароль'}
+                placeholder={'Введите пароль'}
                 value={password}
                 onChange={onChangePassword}
             />

@@ -10,3 +10,12 @@
     margin-left: auto;
     color: var(--tg-theme-text-color);
 }
+
+.button {
+    padding: 20px 25px;
+    background: var(--tg-theme-button-color);
+    color: var(--tg-theme-button-text-color);
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
