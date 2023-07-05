@@ -4,15 +4,15 @@ import ProductItem from "../ProductItem/ProductItem";
 import {useTelegram} from "../../hooks/useTelegram";
 
 const products = [
-    {id: 1, title: 'Эспрессо', description: 'молотый кофе, вода', img: './../../assets/coffee1.jpg', price: 200},
-    {id: 2, title: 'Макиато', description: 'молочная пена, эспрессо', img: './../../assets/coffee2.jpg', price: 240},
-    {id: 3, title: 'Моккачино', description: 'эспрессо, вспененное молоко, горячее молоко, шоколад', img: './../../assets/coffee3.jpg', price: 250},
-    {id: 4, title: 'Ристретто', description: 'более плотный, но менее крепкий, чем эспрессо', img: './../../assets/coffee4.jpg', price: 210},
-    {id: 5, title: 'Фраппе', description: 'молоко, лед, эспрессо', img: './../../assets/coffee5.jpg', price: 270},
-    {id: 6, title: 'Капучино', description: 'молочная пена, вспененное молоко, эспрессо', img: './../../assets/coffee6.jpg', price: 250},
-    {id: 7, title: 'Гляссе', description: 'тертый шоколад, мороженное, эспрессо', img: './../../assets/coffee7.jpg', price: 270},
-    {id: 8, title: 'Американо', description: 'эспрессо, вода', img: './../../assets/coffee8.jpg', price: 220},
-    {id: 9, title: 'Латте', description: 'молочная пена, вспененное молоко, эспрессо', img: './../../assets/coffee9.jpg', price: 260}
+    {id: 1, title: 'Эспрессо', img: './../../assets/coffee1.jpg', price: 200},
+    {id: 2, title: 'Макиато', img: './../../assets/coffee2.jpg', price: 240},
+    {id: 3, title: 'Моккачино', img: './../../assets/coffee3.jpg', price: 250},
+    {id: 4, title: 'Ристретто', img: './../../assets/coffee4.jpg', price: 210},
+    {id: 5, title: 'Фраппе', img: './../../assets/coffee5.jpg', price: 270},
+    {id: 6, title: 'Капучино', img: './../../assets/coffee6.jpg', price: 250},
+    {id: 7, title: 'Гляссе', img: './../../assets/coffee7.jpg', price: 270},
+    {id: 8, title: 'Американо', img: './../../assets/coffee8.jpg', price: 220},
+    {id: 9, title: 'Латте', img: './../../assets/coffee9.jpg', price: 260}
 ]
 
 const getTotalPrice = (items) => {
