@@ -18,10 +18,18 @@ const ProductList = () => {
         const alreadyAdded = addedItems.find(item => item.id === product.id);
         let newItems = [];
 
-        if(alreadyAdded) {
-            newItems = addedItems.filter(item => item.id !== product.id);
+        if (alreadyAdded) {
+            newItems = addedItems.map(item => {
+                if (item.id === product.id) {
+                    return {
+                        ...item,
+                        quantity: item.quantity + 1
+                    };
+                }
+                return item;
+            });
         } else {
-            newItems = [...addedItems, product];
+            newItems = [...addedItems, { ...product, quantity: 1 }];
         }
 
         setAddedItems(newItems)
