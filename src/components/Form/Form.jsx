@@ -45,7 +45,7 @@ const Form = () => {
 
     return (
         <div className={'form'}>
-            <h3>Введите данные</h3>
+            <h3 className={'title'}>Введите данные</h3>
             <input
                 className={'input'}
                 type='text'

@@ -16,3 +16,7 @@
 .input:focus {
     outline: none;
 }
+
+.title {
+    font-size: 18px;
+}
